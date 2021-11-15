@@ -1,0 +1,11 @@
+Adobe Color: /* Color Theme Swatches in Hex */
+.Logo-collection-vol.1-1-hex { color: #A60522; }
+.Logo-collection-vol.1-2-hex { color: #BF5E70; }
+.Logo-collection-vol.1-3-hex { color: #BF214B; }
+.Logo-collection-vol.1-4-hex { color: #F2F2F2; }
+.Logo-collection-vol.1-5-hex { color: #0D0D0D; }
+
+Icon Arrow: https://icons8.com/icon/ngzfyKl3rtHG/arrow
+
+Font-Title: Siffon
+Font-Captoin: Josefin Sans
