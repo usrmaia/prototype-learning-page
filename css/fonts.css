@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('../fonts/josefin=sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-Bold';
+    src: url('../fonts/josefin=sans/static/JosefinSans-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Sifonn';
+    src: url('../fonts/sifonn-cufonfonts/SIFONN_PRO.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1{
+    font-family:'Sifonn', normal, normal;
+}
+
+body{
+    font-family: 'JosefinSans', normal, normal;
+
+}
