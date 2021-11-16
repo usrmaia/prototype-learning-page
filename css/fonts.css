@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'JosefinSans';
-    src: url('../fonts/josefin=sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+    src: url('../fonts/josefin=sans/static/JosefinSans-ExtraLight.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
@@ -19,11 +19,10 @@
     font-weight: normal;
 }
 
-h1{
+header, #grouping h1, .section2 h1, .section3 h2{
     font-family:'Sifonn', normal, normal;
 }
 
-body{
-    font-family: 'JosefinSans', normal, normal;
-
+#grouping h3, #grouping h2, .section2 h3, .section4{
+    font-family:'JosefinSans', normal, normal;
 }
