@@ -24,5 +24,7 @@ header, #grouping h1, .section2 h1, .section3 h2{
 }
 
 #grouping h3, #grouping h2, .section2 h3, .section4{
+    letter-spacing: 3px;
+    line-height: 130%;
     font-family:'JosefinSans', normal, normal;
 }

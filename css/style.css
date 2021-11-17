@@ -1,11 +1,16 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
 .section1{
     background-image: url(../img/background1.png);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto;
+    background-position: left;
+    background-size: cover;
 }
 
-header{
+header{ /*borda*/
     display: flex;
     align-items: stretch;
 
@@ -14,11 +19,12 @@ header{
     border-top-width: 0;
     border-left-width: 0;
     border-right-width: 0;
-    border-color: #A60522;
+    border-color: #BF5E70;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 header #title{
-    margin-left: 10%;
     margin-right: auto;
 
     color: #A60522;
@@ -27,16 +33,15 @@ header #title{
 
 header #submenu{
     display: flex;
-    align-items: stretch;
+    align-items: stretch center;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-
-    margin-right: 7%;
-    margin-left: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     color: #A60522;
     font-size: 20px;
+
+    align-items:center;
 }
 
 header img{
@@ -48,13 +53,13 @@ header img{
     margin-left: 1px;
 }
 
-header div{
+header #menu-icon{
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items:center;
 }
 
-#grouping{
+.section1 #grouping{
     display: flex;
     align-items: baseline;
 
@@ -64,49 +69,46 @@ header div{
     color: #A60522;
     font-size: 20px;
 
-    margin-left: 10%;
-    margin-right: 50%;
+    padding-left: 10%;
+    padding-right: 50%;
 }
 
-#grouping h3{
-    margin-top: 20%;
-    margin-bottom: 0px;
+.section1 #grouping h3{
+    padding-top: 10%;
     font-size: 22.8px;
 }
 
-#grouping h1{
-    margin-top: 35px;
-    margin-bottom: 0px;
-    font-size: 84.6px;
+.section1 #grouping h1{
+    margin-top: 1%;
+    font-size: 94.6px;
 }
 
-#grouping h2{
-    margin-top: 0px;
+.section1 #grouping h2{
+    margin-top: -5%;
     font-size: 26.2px;
     color: #0D0D0D;
 }
 
 .section2{
     background-color: #A60522;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
-.section2 h3{
+.section2 h3, .section2 h1{
     padding-top: 60px;
     margin-top: 0px;
     margin-left: 10%;
-    margin-right: auto;
+    margin-right: 10%;
 
     color: #FFFFFF;
     font-size: 22.8px;
 }
 
 .section2 h1{
-    margin-top: 0px;
-    margin-left: 10%;
-    margin-right: auto;
-
-    color: #FFFFFF;
     font-size: 50px;
+    padding-top: 0px;
 }
 
 .section2 img{
@@ -125,14 +127,18 @@ header div{
 
 .section3{
     background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
 }
 
 .section3 h2{
-    padding-top: 300px;
+    padding-top: 200px;
     padding-right: 35%;
     padding-bottom: 250px;
+    padding-left: 10%;
     margin-top: 0px;
-    margin-left: 10%;
+    margin-bottom: 0px;
     margin-right: auto;
 
     color: #0D0D0D;
@@ -142,6 +148,11 @@ header div{
 .section4{
     color: #F2F2F2;
     background-color: #0D0D0D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .section4 img{
@@ -149,15 +160,78 @@ header div{
     max-height:150px;
     width: auto;
     height: auto;
-
-    margin-left: 1px;
 }
 
-.section4 h2, .section4 h3, .section4 h4{
+.section4 h2{
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.section4 h4{
+    font-size: 20px;
+    color: #0D0D0D;
     margin-top: 0px;
-    margin-left: 10%;
-    margin-right: auto;
+}
+
+.section4 h4 span{
+    text-align: center;
+}
+
+.section4 h3{
+    font-size: 22.8px;
+}
+
+.section4 h2, .section4 h3{
+    margin-top: 0px;
 
     color: #FFFFFF;
-    font-size: 50px;
+}
+
+.section4 #grouping{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section4 #grouping-form{
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+}
+
+.section4 #grouping-form-bord{
+    border-style: solid;
+    border-top-width: 10%;
+    border-bottom-width: 10%;
+    border-left-width: 10%;
+    border-right-width: 10%;
+    border-radius: 10px;
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+}
+
+.section4 #grouping-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section4 #footer{
+    padding-top: 30px;
+
+    display: flex;
+    align-items: stretch;
+
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 4px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: #BF5E70;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.section4 #footer-right{
+    text-align: right;
 }
