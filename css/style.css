@@ -1,6 +1,9 @@
 body{
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .section1{
@@ -189,7 +192,7 @@ header #menu-icon{
 
 .section4 #grouping{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .section4 #grouping-form{
@@ -208,9 +211,22 @@ header #menu-icon{
     background-color: #F2F2F2;
 }
 
+.grouping-form-bord{
+    border-style: solid;
+    border-top-width: 10%;
+    border-bottom-width: 10%;
+    border-left-width: 10%;
+    border-right-width: 10%;
+    border-radius: 10px;
+    border-color: #FF5757;
+    background-color: #FF5757;
+    text-align: center;
+}
+
 .section4 #grouping-icon{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: right;
 }
 
 .section4 #footer{
