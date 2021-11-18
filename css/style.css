@@ -97,6 +97,8 @@ header #menu-icon{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    padding-bottom: 100px;
 }
 
 .section2 h3, .section2 h1{
@@ -114,18 +116,36 @@ header #menu-icon{
     padding-top: 0px;
 }
 
-.section2 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+.section2 #carouselExampleSlidesOnly{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+
+    width: 99vw;
 }
 
-.section2 #arrow{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
+.section2 #carousel-inner{
+    display: flex;
+    overflow-x: auto;
+
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.section2 .carousel-item{
+    flex: none;
+    width: 100%;
+    height: 400px;
+
+    scroll-snap-align: start;
+    pointer-events: none;
+}
+
+.section2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .section3{
