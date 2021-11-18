@@ -76,3 +76,27 @@
     }
 
 }
+
+@media screen and (max-width: 600px){
+    .section1 #grouping h3, .section2 h3, .section4 h2, .section4 h4{
+        font-size: 18px;
+    }
+
+    .section1 #grouping h1, .section2 h1, .section3 h2{
+        font-size: 62px;
+    }
+
+    .section1 #grouping h2, .section4 h3{
+        font-size: 20px;
+    }
+
+    .section4 #grouping-icon{
+        align-items: center;
+    }
+
+    .section4 #grouping-icon img{
+        max-width:70px;
+        max-height:70px;
+    }
+
+}
