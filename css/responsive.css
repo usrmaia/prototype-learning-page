@@ -78,7 +78,7 @@
 }
 
 @media screen and (max-width: 600px){
-    .section1 #grouping h3, .section2 h3, .section4 h2, .section4 h4{
+    .section1 #grouping h3, .section2 h3, .section4 h2, .section4 h4, .section4 h3{
         font-size: 18px;
     }
 
@@ -86,7 +86,7 @@
         font-size: 62px;
     }
 
-    .section1 #grouping h2, .section4 h3{
+    .section1 #grouping h2{
         font-size: 20px;
     }
 
