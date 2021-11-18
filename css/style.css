@@ -9,7 +9,7 @@ body{
 .section1{
     background-image: url(../img/background1.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-size: cover;
 }
 
@@ -70,10 +70,14 @@ header #menu-icon{
     grid-template-rows: 2fr 4fr 5fr;
 
     color: #A60522;
-    font-size: 20px;
+
 
     padding-left: 10%;
     padding-right: 50%;
+}
+
+.section1 header #btn-mobile{
+    display: none;
 }
 
 .section1 #grouping h3{
@@ -151,7 +155,7 @@ header #menu-icon{
 .section3{
     background-image: url(../img/background2.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-size: cover;
 }
 
